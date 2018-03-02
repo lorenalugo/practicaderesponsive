@@ -1,0 +1,85 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+	<title>Práctica de una página responsive</title>
+	<style type="text/css">
+		body {
+			background: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+			color: #fff;
+		}
+		.cabecera {
+			text-align: center;
+			padding-top: 2em;
+			font-family: 'Bellefair', serif;
+			font-size: 1.5em;
+		}
+
+		.contenedor {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.contenedor div {
+			width: 400px;
+  			margin: 1em;
+		}
+
+		.box {
+			border-radius: 5%;
+			width: 400px;
+			background-color: black;
+			text-align: center;
+			
+		}
+
+		img, iframe {
+			width: 80%;
+			height: 50%;
+			margin-top: 2em;
+			margin-bottom: 2em;
+			border-radius: 5%;
+			border: 0.05em solid white;
+		}
+
+		.box p {
+			padding-right: 1em;
+			padding-left: 1em;
+			font-size: 1em;
+			font-family: 'Indie Flower', cursive;
+		}
+		.cabecera p {
+			color: #F4FA58;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="cabecera">
+		<h1>Práctica de una Página Responsive</h1>
+		<h2>Covers Famosos</h2>
+		<p>A continuación se encuentran imágenes y videos de algunos covers famosos</p>
+	</div>
+	<div class="contenedor">
+		<div class="box">
+			<img src='imbitmap.jpeg'>
+			<p>Nothing Compares 2 U por Sinead O’Connor</p>
+			<p>&lt;original de PRINCE&gt;</p>
+		</div>
+		<div class="box">
+			<iframe src="https://www.youtube.com/embed/ynlQ8Oz8Qmk" frameborder="0" allowfullscreen></iframe>
+			<p>Make You Feel My Love por Adele</p>
+			<p>&lt;original de Bob Dylan&gt;</p>
+		</div>
+		<div class="box">
+			<img src='nirvana-vector.png'>
+			<p>The Man Who Sold The World por Nirvana</p>
+			<p>&lt;original de David Bowie&gt;</p>
+		</div>
+		
+	</div>
+</body>
+</html>
